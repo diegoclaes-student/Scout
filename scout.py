@@ -28,6 +28,7 @@ MAX_ATTEMPTS = 3
 ADMIN_PASSWORD = "admin"
 VIDEO_PATH_DEFAULT = "video.mp4"
 USER_VIDEOS = {
+    "admin": "videoadmin.mp4",
     "alice": "video_alice.mp4",
     "bob": "video_bob.mp4",
     "charlie": "video_charlie.mp4"
