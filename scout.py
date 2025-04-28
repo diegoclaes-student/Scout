@@ -20,18 +20,22 @@ import random
 # CONFIGURATION :
 AUTHORIZED_USERS = {
     "admin": "",
-    "alice": "alpha123",
-    "bob": "bravo456",
-    "charlie": "charlie789"
+    "loup très très méchant": "loup garou ", #Mot caché dans un texte - Petit dortoir
+    "la boiserie": "pleine lune", #Alphabet inversé - Cour
+    "m4x g0ul3": "hacking", #Message troué - Grand Dortoir
+    "ford mustang gt": "tahki", #4I1M - goal
+    "zurafax": "vampire" #Morse - Préau
 }
 MAX_ATTEMPTS = 3
 ADMIN_PASSWORD = "admin"
 VIDEO_PATH_DEFAULT = "video.mp4"
 USER_VIDEOS = {
-    "admin": "videoadmin.mp4",
-    "alice": "video_alice.mp4",
-    "bob": "video_bob.mp4",
-    "charlie": "video_charlie.mp4"
+      "admin": "",
+    "loup très très méchant": "6.mp4", #Mot caché dans un texte - Petit dortoir
+    "la boiserie": "2.mp4", #Alphabet inversé - Cour
+    "m4x g0ul3": "3.mp4", #Message troué - Grand Dortoir
+    "ford mustang gt": "4.mp4", #4I1M - goal
+    "zurafax": "5.mp4" #Morse - Préau
 }
 
 class CodeAccessApp:
